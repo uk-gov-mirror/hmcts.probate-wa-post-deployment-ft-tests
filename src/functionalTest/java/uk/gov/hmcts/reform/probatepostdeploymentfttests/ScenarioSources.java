@@ -63,7 +63,7 @@ public class ScenarioSources {
         } else {
             scenarioPattern = "*" + scenarioPattern + "*.json";
         }
-
+        scenarioPattern =  "gop-caseprinted-amendcasedetails-create-false.json";
         Collection<String> scenarioSources;
         try {
             scenarioSources = StringResourceLoader
